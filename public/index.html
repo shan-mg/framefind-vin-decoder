@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090d12"><title>FrameFind — Vehicle Intelligence</title>
+<link rel="stylesheet" href="styles.css"><script defer src="config.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<header><a class="brand" href="#"><b>F</b><span>FRAME<span class="green">FIND</span><small>VEHICLE INTELLIGENCE</small></span></a><span class="ready">● SYSTEM READY</span></header>
+<main>
+<section class="hero"><p class="eyebrow">VIN & CHASSIS RESEARCH PLATFORM</p><h1>Know the vehicle.<br><em>Verify every detail.</em></h1><p class="sub">Decode vehicle identity, explore factory specifications, and track the evidence behind every result.</p></section>
+<section class="panel"><p class="eyebrow">01 / IDENTIFICATION</p><h2>Vehicle decoder</h2>
+<form id="searchForm"><label for="chassis">VIN / Chassis number</label><div class="search"><input id="chassis" placeholder="e.g. 17-character VIN or NZE141-..." maxlength="40" required><button id="searchButton">Decode vehicle ↗</button></div><div class="hints"><span>17-character VIN</span><span>Japanese frame number</span><span>Model code</span></div></form><div id="notice" class="notice" hidden></div>
+</section>
+<section id="results" hidden><div class="resulthead"><div><p class="eyebrow">02 / DECODER OUTPUT</p><h2>Vehicle report</h2></div><button id="copyReport" class="outline">Copy report</button></div><div class="vehicle"><div><small>IDENTIFICATION SUMMARY</small><h3 id="vehicleName">Vehicle details</h3><p id="vehicleSub"></p></div><span id="overallStatus" class="pill">PARTIAL / UNVERIFIED</span></div><div id="specGrid" class="grid"></div><div class="evidence"><p class="eyebrow">03 / EVIDENCE</p><h3>Sources & verification</h3><div id="evidenceList"></div></div></section>
+<section class="how"><p class="eyebrow">BUILT FOR TRACEABLE RESULTS</p><div class="features"><article><b>01</b><h3>Decode</h3><p>Use available public VIN decoding sources and saved records.</p></article><article><b>02</b><h3>Verify</h3><p>Separate verified facts from reported and unavailable data.</p></article><article><b>03</b><h3>Document</h3><p>Keep source evidence beside each specification.</p></article></div></section>
+</main><footer><b>FRAME<span class="green">FIND</span></b><span>Independent vehicle research · Verify before valuation</span><span>© 2026</span></footer>
+</body></html>
